@@ -10,6 +10,8 @@
  * | File Name:     avidnet.js
  * +===============================================
  */
+/* eslint-env mongo */
+
 var cfg = {
   _id: "avidnet",
   members: [
