@@ -1,7 +1,6 @@
 # config
 
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/c1930d244a884c23b4b2bedd4367a400)]
-(https://www.codacy.com/app/avidnet/config?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=Avidnet/config&amp;utm_campaign=Badge_Grade)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/c1930d244a884c23b4b2bedd4367a400)](https://www.codacy.com/app/avidnet/config?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=Avidnet/config&amp;utm_campaign=Badge_Grade)
 
 ## Inroduction
 Useful configurations about Avidnet infrastructure and platform.
