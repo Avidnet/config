@@ -22,6 +22,14 @@ These servers are virtualized on 2 Hardware nodes.
 | node-1   | 192.168.1.80  |
 | node-2   | 192.168.1.85  |
 
+## MongoDB
+In avidnet we have replicated mongo databases. So in this environment our db_urls as the following:
+
+```
+mongodb://127.0.0.1:27017,192.168.1.88:27017.192.168.1.88:27018/?replicaSet=avidnet
+```
+
+
 ## Monitoring
 In avidnet we monitor following component of I1820, our open source IoT Platform:
 
