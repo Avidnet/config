@@ -29,6 +29,7 @@ In avidnet we have replicated mongo databases. So in this environment our db_url
 mongodb://127.0.0.1:27017,192.168.1.88:27017.192.168.1.88:27018/?replicaSet=avidnet
 ```
 
+To mintor our database inferastructure we use `mongostat` and `mongotop` from [mongo-tools](https://github.com/mongodb/mongo-tools).
 
 ## Monitoring
 In avidnet we monitor following component of I1820, our open source IoT Platform:
