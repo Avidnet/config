@@ -21,3 +21,10 @@ These servers are virtualized on 2 Hardware nodes.
 |:---------|:-------------:|
 | node-1   | 192.168.1.80  |
 | node-2   | 192.168.1.85  |
+
+## Monitoring
+In avidnet we monitor following component of I1820, our open source IoT Platform:
+
+- Physical node (Load and FreeMem)
+- Link component
+- Vernemq broker
