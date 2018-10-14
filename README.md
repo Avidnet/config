@@ -22,6 +22,8 @@ These servers are virtualized on 2 Hardware nodes.
 | node-1   | 192.168.1.80  |
 | node-2   | 192.168.1.85  |
 
+- Current Public IP Address: 46.225.142.182
+
 ## MongoDB
 In avidnet we have replicated mongo databases. So in this environment our db_urls as the following:
 
