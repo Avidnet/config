@@ -11,6 +11,7 @@ These servers are from Avidnet IT unit. Each of these servers may have available
 | Hostname       | IP            | Outside Port |
 |:-------------- |:-------------:|:------------:|
 | parham-usvm-2  | 192.168.73.3  | 3032         |
+| mongo-usvm-1   | 192.168.73.2  |              |
 
 These servers are virtualized on a Hardware node.
 
@@ -18,7 +19,7 @@ These servers are virtualized on a Hardware node.
 |:---------|:-------------:|
 | node-1   | 192.168.73.5  |
 
-- Current Public IP Address: http://178.131.34.210
+- Current Public IP Address: 178.131.34.210
 
 ## MongoDB
 In avidnet we have replicated mongo databases. So in this environment our db_urls as the following:
