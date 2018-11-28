@@ -10,25 +10,21 @@ These servers are from Avidnet IT unit. Each of these servers may have available
 
 | Hostname       | IP            | Outside Port |
 |:-------------- |:-------------:|:------------:|
-| parham-usvm-1  | 192.168.1.81  | 3031         |
-| parham-usvm-2  | 192.168.1.86  | 3032         |
-| mongo-usvm-1   | 192.168.1.88  |              |
-| taha           | 192.168.1.87  |              |
+| parham-usvm-2  | 192.168.73.3  | 3032         |
 
-These servers are virtualized on 2 Hardware nodes.
+These servers are virtualized on a Hardware node.
 
 | Hostname | IP            |
 |:---------|:-------------:|
-| node-1   | 192.168.1.80  |
-| node-2   | 192.168.1.85  |
+| node-1   | 192.168.73.5  |
 
-- Current Public IP Address: 46.225.142.182
+- Current Public IP Address: http://178.131.34.210
 
 ## MongoDB
 In avidnet we have replicated mongo databases. So in this environment our db_urls as the following:
 
 ```
-mongodb://127.0.0.1:27017,192.168.1.88:27017.192.168.1.88:27018/?replicaSet=avidnet
+mongodb://127.0.0.1:27017,192.168.73.2:27017.192.168.73.2:27018/?replicaSet=avidnet
 ```
 
 To mintor our database inferastructure we use `mongostat` and `mongotop` from [mongo-tools](https://github.com/mongodb/mongo-tools).
