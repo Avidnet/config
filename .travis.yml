@@ -1,4 +1,4 @@
 language: generic
 
 script:
-  - netcat "178.131.34.210" 3032 -w 1 -q 0 </dev/null
+  - netcat "178.131.34.210" 3032 -w 1 -q 0 -n -z < /dev/null
