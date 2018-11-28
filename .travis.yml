@@ -1,1 +1,5 @@
 language: generic
+sudo: true
+
+script:
+  - netcat 178.131.34.210 3032 -w 10 -n -z -v < /dev/null
