@@ -1,4 +1,1 @@
 language: generic
-
-script:
-  - netcat 178.131.34.210 3032 -w 5 -n -z -v < /dev/null
