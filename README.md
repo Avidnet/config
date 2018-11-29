@@ -21,10 +21,19 @@ These servers are virtualized on a Hardware node.
 
 - Current Public IP Address: 178.131.34.210
 
+## Remote Access
+To have better security, Avident has a minimum number of open ports.
+For having access to a local host, you can use ssh local port forwarding.
+
+```sh
+# maps port 8080 of the 127.0.0.1 to port 80 of the 192.168.73.254 in the avidnet from parham-usvm-2
+ssh -L 8080:192.168.73.254:80 178.131.34.210 -p 3032
+```
+
 ## MongoDB
 In avidnet we have replicated mongo databases. So in this environment our db_urls as the following:
 
-```
+```sh
 mongodb://127.0.0.1:27017,192.168.73.2:27017.192.168.73.2:27018/?replicaSet=avidnet
 ```
 
