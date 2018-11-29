@@ -1,5 +1,1 @@
 language: generic
-sudo: true
-
-script:
-  - ssh 178.131.34.210 -p 3032
