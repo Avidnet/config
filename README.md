@@ -27,7 +27,19 @@ For having access to a local host, you can use ssh local port forwarding.
 
 ```sh
 # maps port 8080 of the 127.0.0.1 to port 80 of the 192.168.73.254 in the avidnet from parham-usvm-2
-ssh -L 8080:192.168.73.254:80 178.131.34.210 -p 3032
+ssh -fNT -L 8080:192.168.73.254:80 178.131.34.210 -p 3032
+```
+```
+  -L    Local port forwarding
+  -f    Requests ssh to go to background just before command execution.
+  -N    Do not execute a remote command.
+  -T    Disable pseudo-tty allocation.
+```
+
+> Use local port forwarding to forward data securely from an application client running on the same computer as the Secure Shell client.
+
+```
+ssh -L listening_port:app_host:hostport user@sshserver
 ```
 
 ## MongoDB
