@@ -12,6 +12,7 @@ These servers are from Avidnet IT unit. Each of these servers may have available
 |:-------------- |:-------------:|:------------:|
 | parham-usvm-2  | 192.168.73.3  | 3032         |
 | mongo-usvm-1   | 192.168.73.2  |              |
+| taha           | 192.168.73.4  |              |
 
 These servers are virtualized on a Hardware node.
 
