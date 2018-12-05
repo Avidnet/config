@@ -4,6 +4,8 @@
 
 ## Inroduction
 Useful configurations about Avidnet infrastructure and platform.
+To support `https` we use [Certbot](https://certbot.eff.org/docs/using.html#manual) with Nginx and Ubuntu 18.04.
+Please note that we use dns plugin of certbot.
 
 ## Server
 These servers are from Avidnet IT unit. Each of these servers may have available ssh from outside.
@@ -13,7 +15,7 @@ These servers are from Avidnet IT unit. Each of these servers may have available
 | avid-nginx     | 192.168.73.1  |              |
 | parham-usvm-2  | 192.168.73.3  | 3032         |
 | mongo-usvm-1   | 192.168.73.2  |              |
-| taha           | 192.168.73.4  |              |
+| taha           | 192.168.73.4  | 3031         |
 
 These servers are virtualized on a Hardware node.
 
