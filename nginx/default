@@ -77,11 +77,14 @@ server {
 # to sites-enabled/ to enable it.
 #
 server {
-	listen 80;
-	listen [::]:80;
+	listen 443 ssl;
+
+        ssl_certificate /etc/letsencrypt/live/platform.avidnet.io/fullchain.pem;
+        ssl_certificate_key /etc/letsencrypt/live/platform.avidnet.io/privkey.key;
 
 	server_name platform.avidnet.io;
         location / {
+                proxy_redirect http:// https://;
                 proxy_pass http://192.168.73.3:1820;
         }
 }
