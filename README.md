@@ -23,7 +23,7 @@ These servers are virtualized on a Hardware node.
 |:---------|:-------------:|
 | node-1   | 192.168.73.5  |
 
-- Current Public IP Address: 178.131.34.210
+- Current Public IP Address: 178.131.34.210 (which is maped to `platform.avidnet.io`).
 
 ## Remote Access
 To have better security, Avident has a minimum number of open ports.
