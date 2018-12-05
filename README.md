@@ -5,7 +5,7 @@
 ## Inroduction
 Useful configurations about Avidnet infrastructure and platform.
 To support `https` we use [Certbot](https://certbot.eff.org/docs/using.html#manual) with Nginx and Ubuntu 18.04.
-Please note that we use dns plugin of certbot.
+Please note that we use dns plugin of certbot. Avidnet monitoring is based on [uptime robot](https://uptimerobot.com).
 
 ## Server
 These servers are from Avidnet IT unit. Each of these servers may have available ssh from outside.
