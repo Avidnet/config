@@ -20,7 +20,7 @@
 #
 server {
 	listen 80 default_server;
-	listen [::]:80 default_server;
+        listen [::]:80 default_server;
 
 	# SSL configuration
 	#
@@ -80,11 +80,20 @@ server {
 	listen 443 ssl;
 
         ssl_certificate /etc/letsencrypt/live/platform.avidnet.io/fullchain.pem;
-        ssl_certificate_key /etc/letsencrypt/live/platform.avidnet.io/privkey.key;
+        ssl_certificate_key /etc/letsencrypt/live/platform.avidnet.io/privkey.pem;
 
 	server_name platform.avidnet.io;
         location / {
                 proxy_redirect http:// https://;
                 proxy_pass http://192.168.73.3:1820;
+        }
+}
+
+server {
+	listen 80;
+
+	server_name lg.platform.avidnet.io;
+        location / {
+                proxy_pass http://192.168.73.3:7294;
         }
 }
