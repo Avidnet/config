@@ -6,6 +6,7 @@
 Useful configurations about Avidnet infrastructure and platform.
 To support `https` we use [Certbot](https://certbot.eff.org/docs/using.html#manual) with Nginx and Ubuntu 18.04.
 Please note that we use dns plugin of certbot. Avidnet monitoring is based on [uptime robot](https://uptimerobot.com).
+Avidnet has a gateway for its lora communications that use [TTN](http://thethingsnetwork.org) as its Network Server.
 
 ## Server
 These servers are from Avidnet IT unit. Each of these servers may have available ssh from outside.
