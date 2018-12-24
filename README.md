@@ -18,6 +18,7 @@ These servers are from Avidnet IT unit. Each of these servers may have available
 | mongo-usvm-1   | 192.168.73.2  |              |
 | taha-usvm-1    | 192.168.73.4  | 3031         |
 | rhf2s008       | 192.168.73.10 |              |
+| secretary-printer | 192.168.73.20 |           |
 
 These servers are virtualized on a Hardware node.
 
