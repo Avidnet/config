@@ -97,3 +97,12 @@ server {
                 proxy_pass http://192.168.73.3:7294;
         }
 }
+
+server {
+	listen 80;
+
+	server_name agri.platform.avidnet.io;
+        location / {
+                proxy_pass http://192.168.73.3:4200;
+        }
+}
