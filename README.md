@@ -6,6 +6,7 @@
 Useful configurations about Avidnet infrastructure and platform.
 To support `https` we use [Certbot](https://certbot.eff.org/docs/using.html#manual) with Nginx and Ubuntu 18.04.
 Please note that we use dns plugin of certbot. Avidnet monitoring is based on [uptime robot](https://uptimerobot.com).
+Avidnet has a gateway for its lora communications that use [TTN](http://thethingsnetwork.org) as its Network Server.
 
 ## Server
 These servers are from Avidnet IT unit. Each of these servers may have available ssh from outside.
@@ -15,13 +16,18 @@ These servers are from Avidnet IT unit. Each of these servers may have available
 | avid-nginx     | 192.168.73.1  |              |
 | parham-usvm-2  | 192.168.73.3  | 3032         |
 | mongo-usvm-1   | 192.168.73.2  |              |
-| taha           | 192.168.73.4  | 3031         |
+| taha-usvm-1    | 192.168.73.4  | 3031         |
+| rhf2s008       | 192.168.73.10 |              |
+| secretary-printer | 192.168.73.20 |           |
+| parham-SVE14A27CXH | 192.168.73.8 |           |
 
 These servers are virtualized on a Hardware node.
 
 | Hostname | IP            |
 |:---------|:-------------:|
 | node-1   | 192.168.73.5  |
+| ans-1    | 192.168.73.1  |
+| ans-2    | 192.168.73.2  |
 
 - Current Public IP Address: 178.131.34.210 (which is maped to `platform.avidnet.io`).
 
