@@ -11,8 +11,8 @@ These servers are from Avidnet IT unit. Each of these servers may have available
 
 | Hostname       | IP            | Outside Port |
 |:-------------- |:-------------:|:------------:|
-| avid-nginx     | 192.168.73.1  |              |
-| parham-usvm-2  | 192.168.73.3  | 3032         |
+| wildfire       | 192.168.97.5  |              |
+| faniot         | 192.168.97.4  |              |
 | mongo-usvm-1   | 192.168.73.2  |              |
 | taha-usvm-1    | 192.168.73.4  | 3031         |
 | rhf2s008       | 192.168.73.10 |              |
