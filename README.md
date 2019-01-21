@@ -11,8 +11,9 @@ These servers are from Avidnet IT unit. Each of these servers may have available
 
 | Hostname       | IP            | Outside Port |
 |:-------------- |:-------------:|:------------:|
-| wildfire       | 192.168.97.5  |              |
 | faniot         | 192.168.97.4  |              |
+| wildfire       | 192.168.97.5  |              |
+| loraserver     | 192.168.97.6  |              |
 | rhf2s008       | 192.168.97.10 |              |
 | secretary-printer | 192.168.97.20 |           |
 
