@@ -22,9 +22,9 @@ These servers are virtualized on a Hardware node.
 
 | Hostname | IP            |
 |:---------|:-------------:|
-| node-1   | 192.168.73.5  |
-| ans-1    | 192.168.73.1  |
-| ans-2    | 192.168.73.2  |
+| node-1   | 192.168.97.3  |
+| ans-1    | 192.168.97.1  |
+| ans-2    | 192.168.97.2  |
 
 - Current Public IP Address: 178.131.34.210 (which is maped to `platform.avidnet.io`).
 
