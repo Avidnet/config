@@ -1,7 +1,5 @@
 # config
 
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/c1930d244a884c23b4b2bedd4367a400)](https://www.codacy.com/app/avidnet/config?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=Avidnet/config&amp;utm_campaign=Badge_Grade)
-
 ## Inroduction
 Useful configurations about Avidnet infrastructure and platform.
 To support `https` we use [Certbot](https://certbot.eff.org/docs/using.html#manual) with Nginx and Ubuntu 18.04.
@@ -19,7 +17,6 @@ These servers are from Avidnet IT unit. Each of these servers may have available
 | taha-usvm-1    | 192.168.73.4  | 3031         |
 | rhf2s008       | 192.168.73.10 |              |
 | secretary-printer | 192.168.73.20 |           |
-| parham-SVE14A27CXH | 192.168.73.8 |           |
 
 These servers are virtualized on a Hardware node.
 
