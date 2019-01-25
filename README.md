@@ -30,6 +30,10 @@ These servers are virtualized on a Hardware node.
 ```
 https://192.168.97.6:7070/#/login
 ```
+- FANIoT Platform is running on the following link and can be accessed from local network.
+```
+http://192.168.97.4:1820
+```
 
 ## Remote Access
 To have better security, Avident has a minimum number of open ports.
