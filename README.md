@@ -11,7 +11,7 @@ These servers are from Avidnet IT unit. Each of these servers may have available
 
 | Hostname       | IP            | Outside Port |
 |:-------------- |:-------------:|:------------:|
-| faniot         | 192.168.97.4  |              |
+| faniot         | 192.168.97.4  | 3032         |
 | wildfire       | 192.168.97.5  |              |
 | loraserver     | 192.168.97.6  |              |
 | rhf2s008       | 192.168.97.10 |              |
@@ -26,6 +26,10 @@ These servers are virtualized on a Hardware node.
 | ans-2    | 192.168.97.2  |
 
 - Current Public IP Address: 178.131.34.210 (which is maped to `platform.avidnet.io`).
+- Avidnet LoRaServer is run on the following address and can be accessed from local network.
+```
+https://192.168.97.6:7070/#/login
+```
 
 ## Remote Access
 To have better security, Avident has a minimum number of open ports.
