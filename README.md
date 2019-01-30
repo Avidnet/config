@@ -11,11 +11,12 @@ These servers are from Avidnet IT unit. Each of these servers may have available
 
 | Hostname       | IP            | Outside Port |
 |:-------------- |:-------------:|:------------:|
+| networking     | 192.168.97.3  |              |
 | faniot         | 192.168.97.4  | 3032         |
 | wildfire       | 192.168.97.5  |              |
 | loraserver     | 192.168.97.6  |              |
 | nginx          | 192.168.97.7  |              |
-| networking     | 192.168.97.3  |              |
+| aliparto       | 192.168.97.8  |              |
 | rhf2s008       | 192.168.97.10 |              |
 | secretary-printer | 192.168.97.20 |           |
 
