@@ -14,6 +14,8 @@ These servers are from Avidnet IT unit. Each of these servers may have available
 | faniot         | 192.168.97.4  | 3032         |
 | wildfire       | 192.168.97.5  |              |
 | loraserver     | 192.168.97.6  |              |
+| nginx          | 192.168.97.7  |              |
+| networking     | 192.168.97.3  |              |
 | rhf2s008       | 192.168.97.10 |              |
 | secretary-printer | 192.168.97.20 |           |
 
@@ -21,7 +23,6 @@ These servers are virtualized on a Hardware node.
 
 | Hostname | IP            |
 |:---------|:-------------:|
-| node-1   | 192.168.97.3  |
 | ans-1    | 192.168.97.1  |
 | ans-2    | 192.168.97.2  |
 
