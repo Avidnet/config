@@ -85,16 +85,33 @@ server {
 	server_name platform.avidnet.io;
         location / {
                 proxy_redirect http:// https://;
-                proxy_pass http://192.168.73.3:1820;
+                proxy_pass http://192.168.97.4:1820;
         }
 }
 
 server {
-	listen 80;
+	listen 443 ssl;
 
-	server_name lg.platform.avidnet.io;
+        ssl_certificate /etc/letsencrypt/live/platform.avidnet.io/fullchain.pem;
+        ssl_certificate_key /etc/letsencrypt/live/platform.avidnet.io/privkey.pem;
+
+	server_name api.platform.avidnet.io;
         location / {
-                proxy_pass http://192.168.73.3:7294;
+                proxy_redirect http:// https://;
+                proxy_pass http://192.168.97.4:1994;
+        }
+}
+
+
+server {
+	listen 443 ssl;
+
+        ssl_certificate /etc/letsencrypt/live/platform.avidnet.io/fullchain.pem;
+        ssl_certificate_key /etc/letsencrypt/live/platform.avidnet.io/privkey.pem;
+
+	server_name loraserver.platform.avidnet.io;
+        location / {
+                proxy_pass https://192.168.97.6:7070;
         }
 }
 
